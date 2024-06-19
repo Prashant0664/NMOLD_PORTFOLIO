@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color, #1f242d);
+            color: var(--text-color, #fff);
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: var(--second-bg-color, #323946);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            animation: fadeIn 1s ease-out, moveIn 1s ease-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes moveIn {
+            0% { transform: translateY(-50px); }
+            100% { transform: translateY(0); }
+        }
+        h1, h2 {
+            color: var(--main-color, #0ef);
+            animation: fadeIn 1s ease-out, moveIn 1s ease-out;
+        }
+        p {
+            line-height: 1.6;
+            animation: fadeIn 1s ease-out, moveIn 1s ease-out;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .email-link {
+            color: var(--main-color, #0ef);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <div class="contact-info">
+            <p>Find me on all these platforms:</p>
+            <p>Haryana, India</p>
+            <p>Call me: <a href="tel:+918295398406">+91 8295398406</a></p>
+            <p>Drop a mail: <a href="mailto:yashikasharma1775@gmail.com" class="email-link">yashikasharma1775@gmail.com</a></p>
+        </div>
+        <p>Made by Yashika</p>
+    </div>
+</body>
+</html>
