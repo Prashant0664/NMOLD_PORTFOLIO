@@ -651,13 +651,21 @@ font-size: 1.6rem;
     height:70vh;
 }
 
+
 @media (min-width:768px){
     .showinphone{
         display: none;
     }
+    .hideprofimg{
+        display:none;
+    }
+}
+@media (max-width:768px){
+    .showprofimg{
+        display: none;
+    }
 }
 @media (max-width:768px)
-
 {
     
 .more-proj{
