@@ -394,7 +394,6 @@ gap: 2rem;
     text-align: center;
     border: .75rem solid var(--bg-color);
     transition: .5s ease;
-
 }
 .services-container .services-box:hover{
     border-color: var(--main-color);
@@ -437,6 +436,11 @@ gap: 2rem;
 .portfolio-box img{
     width: 100%;
     transition: .5s ease;
+}
+
+.portfolio-box{
+    height:300px;
+    width:auto;
 }
 .portfolio-box:hover img{
 transform: scale(1.1);
@@ -552,7 +556,14 @@ font-size: 1.6rem;
     }
 }
 @media (max-width:991px){
-    
+    .portfolio-box{
+        height:220px;
+        width:auto;
+        width:220px;
+    }
+    .portfolio-container{
+        margin-left:-55px;
+    }
     .completehideinphone{
         display: none;
     }
@@ -772,6 +783,14 @@ text-align: center;
 @media (max-width:617px){
     .portfolio-container{
         grid-template-columns: 1fr;
+    }
+    .portfolio-box{
+        height:220px;
+        width:auto;
+        width:220px;
+    }
+    .portfolio-container{
+        margin-left:0px;
     }
 }
 @media (max-width:450px){
