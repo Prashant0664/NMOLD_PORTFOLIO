@@ -256,6 +256,9 @@ span{
 }
 .contact_container
 {
+    background: url("image/oip.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     padding: 16px;
     border-radius: 20px;
     border: 8px solid #223243;
