@@ -17,6 +17,7 @@
                 <div class="imgBox">
                     <img src="image/Profile.jpeg">
                 </div>
+                <h2 id="button2"><a href="https://nmold-portfolio.vercel.app/" download="FileName">Download it!</a></h2>
                 <h2>Yashika<br><h3><span class="muliple-text"></span></h3></h2>
             </div>
             <div class="contactInfo">
@@ -312,6 +313,21 @@ backDelay:1000,
 loop:true,
 
 });
+
+    </script>
+    
+    <script src="es6-promise.auto.min.js"></script>
+    <script src="jspdf.min.js"></script>
+    <script src="html2canvas.min.js"></script>
+    <script src="html2pdf.min.js"></script>
+    <script src="html2pdf.bundle.min.js"></script>
+    <script>
+    const btn = document.getElementById("button22");
+    
+    btn.addEventListener("click", function(){
+    var element = document.getElementById('body');
+    html2pdf().from(element).save('filename.pdf');
+    });
     </script>
 </body>
 </html>
